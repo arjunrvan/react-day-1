@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from './containers/home/';
+import About from './containers/about/';
+import Contact from './containers/contact/';
+import Work from './containers/work/';
+import Header from './containers/header';
+import Footer from './containers/footer';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Home />
+    <About />
+    <Work />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

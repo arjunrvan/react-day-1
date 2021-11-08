@@ -1,0 +1,26 @@
+header {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: slategray;
+    position: fixed;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
